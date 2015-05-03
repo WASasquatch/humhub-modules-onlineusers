@@ -1,0 +1,18 @@
+{
+    "id": "onlineusers",
+    "name": "Online Users Widget",
+    "description": "Adds a widget to the dashboard show online users.",
+    "keywords": ["online", "users", "widget", "dashboard"],
+	"version": "0.0.1",
+	"authors": [
+		{
+			"name": "Jordan Thompson"
+		}
+	],
+	"homepage": "https://github.com/WASasquatch/humhub-modules-onlineusers/blob/master/README.md",
+	"license": "AGPL",
+	"time": "2015-05-02",
+	"humhub": {
+		"minVersion": "0.11.0"
+	}
+}
