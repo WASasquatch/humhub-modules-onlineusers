@@ -1,7 +1,7 @@
 {
     "id": "onlineusers",
     "name": "Online Users Widget",
-    "description": "Adds a widget to the dashboard show online users.",
+    "description": "Adds a widget to the dashboard to show online users.",
     "keywords": ["online", "users", "widget", "dashboard"],
 	"version": "0.0.1",
 	"authors": [
