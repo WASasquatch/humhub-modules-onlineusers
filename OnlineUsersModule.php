@@ -37,7 +37,8 @@ class OnlineUsersModule extends HWebModule {
             // set default config values
             HSetting::Set('limit', 10, 'onlineusers');
             HSetting::Set('sortOrder', 300, 'onlineusers');
-            HSetting::Set('borderColor', '#990000', 'onlineusers');
+            HSetting::Set('adminBorderColor', '#990000', 'onlineusers');
+            HSetting::Set('borderColor', '#ECECEC', 'onlineusers');
         }
         parent::enable();
     }

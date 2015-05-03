@@ -1,6 +1,7 @@
 <?php
-    $border = '#EDEDED';
     if($user->attributes['super_admin'] == 1) {
+        $border = HSetting::Get('adminBorderColor', 'onlineusers');
+    } else {
         $border = HSetting::Get('borderColor', 'onlineusers');
     }
 ?>

@@ -28,6 +28,13 @@
             <?php echo $form->numberField($model, 'sortOrder', array('class' => 'form-control')); ?>
             <?php echo $form->error($model, 'sortOrder'); ?>
         </div>
+       
+        <div class="form-group">
+            <?php echo $form->labelEx($model,'adminBorderColor'); ?>
+            <?php echo $form->textField($model,'adminBorderColor', array('class' => 'form-control')); ?>
+            <?php echo $form->error($model, 'adminBorderColor'); ?>
+        </div>
+
         
         <div class="form-group">
             <?php echo $form->labelEx($model,'borderColor'); ?>

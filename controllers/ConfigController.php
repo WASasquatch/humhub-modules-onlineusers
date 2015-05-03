@@ -42,12 +42,14 @@ class ConfigController extends Controller {
                 $form->limit = HSetting::Set('limit', (int) $form->limit, 'onlineusers');
                 $form->sortOrder = HSetting::Set('sortOrder', (int) $form->sortOrder, 'onlineusers');
                 $form->borderColor = HSetting::Set('borderColor', $form->borderColor, 'onlineusers');
+                $form->adminBorderColor = HSetting::Set('adminBorderColor', $form->adminBorderColor, 'onlineusers');
                 $this->redirect(Yii::app()->createUrl('onlineusers/config/config'));
             }
         } else {
             $form->limit = HSetting::Get('limit', 'onlineusers');
             $form->sortOrder = HSetting::Get('sortOrder', 'onlineusers');
             $form->borderColor = HSetting::Get('borderColor', 'onlineusers');
+            $form->adminBorderColor = HSetting::Get('adminBorderColor', 'onlineusers');
         }
         
         $this->render('config', array(
