@@ -1,13 +1,13 @@
 <div class="panel default">
     <div class="panel-heading">
-        <?php echo Yii::t('onlineusers.views_OnlineUsers', '<strong>Online</strong> Users'); ?>
+        <?php echo Yii::t('OnlineUsersModule.views_OnlineUsers', '<strong>Online</strong> Users'); ?>
     </div>
     <div class="panel-body">
         <div id="onlineUsersPhrase" style="text-align: center;">
             <?php 
-                echo Yii::t('onlineusers.views_OnlineUsers', 'We have a total of');
+                echo Yii::t('OnlineUsersModule.views_OnlineUsers', 'We have a total of');
                 echo ' ' . number_format($online) . ' ';
-                echo Yii::t('onlineusers.views_OnlineUsers', 'user(s) online.');
+                echo Yii::t('OnlineUsersModule.views_OnlineUsers', 'user(s) online.');
             ?>
         </div>
         <hr />
