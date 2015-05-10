@@ -1,10 +1,10 @@
 
 <div class="panel panel-default">
-    <div class="panel-heading"><?php echo Yii::t('onlineusers.views_config', '<strong>Online Users</strong> Configuration'); ?></div>
+    <div class="panel-heading"><?php echo Yii::t('OnlineUsersModule.views_config', '<strong>Online Users</strong> Configuration'); ?></div>
     <div class="panel-body">
         <p>
-            <?php echo Yii::t('onlineusers.views_config', 'You may configure the number of online users to be shown at once.'); ?>
-            <?php echo Yii::t('onlineusers.views_config', 'Guest viewing is dictating by your authentication settings.'); ?>
+            <?php echo Yii::t('OnlineUsersModule.views_config', 'You may configure the number of online users to be shown at once.'); ?>
+            <?php echo Yii::t('OnlineUsersModule.views_config', 'Guest viewing is dictating by your authentication settings.'); ?>
         </p>
         <br/>
 
@@ -44,8 +44,8 @@
         </div>
 
         <hr>
-        <?php echo CHtml::submitButton(Yii::t('onlineusers.views_config', 'Save'), array('class' => 'btn btn-primary')); ?>
-        <a class="btn btn-default" href="<?php echo $this->createUrl('//admin/module'); ?>"><?php echo Yii::t('onlineusers.views_config', 'Back to modules'); ?></a>
+        <?php echo CHtml::submitButton(Yii::t('OnlineUsersModule.views_config', 'Save'), array('class' => 'btn btn-primary')); ?>
+        <a class="btn btn-default" href="<?php echo $this->createUrl('//admin/module'); ?>"><?php echo Yii::t('OnlineUsersModule.views_config', 'Back to modules'); ?></a>
 
         <?php $this->endWidget(); ?>
     </div>
